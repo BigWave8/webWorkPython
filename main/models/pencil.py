@@ -1,7 +1,7 @@
 from lab11.main.models.abstract_stationery import AbstractStationery
 
 
-class Pensil(AbstractStationery):
+class Pencil(AbstractStationery):
 
     def __init__(self, price_in_hryvnia, color, producer, target_age, hardeness_of_slate):
         super().__init__(price_in_hryvnia, color, producer, target_age)
